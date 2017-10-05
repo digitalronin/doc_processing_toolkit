@@ -13,7 +13,7 @@ Python library to extract text from any file type compatiable with [TIKA](http:/
 
 ##### Installation
 1. Download tika-server-1.7.jar from [Apache Tika](http://www.apache.org/dyn/closer.cgi/tika/tika-server-1.7.jar)
-2. Mac: `brew install ghostscripts` Ubuntu: `sudo apt-get install ghostscript`
+2. Mac: `brew install ghostscript` Ubuntu: `sudo apt-get install ghostscript`
 3. Mac: `brew install tesseract` Ubuntu: `sudo apt-get install tesseract-ocr`
 4. Mac: `brew tap homebrew/x11` and `brew install xpdf` Ubuntu: `sudo apt-get install poppler-utils`
 5. Install Python dependencies with `pip install -r requirements.txt`
