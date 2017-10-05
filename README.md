@@ -12,7 +12,7 @@ Python library to extract text from any file type compatiable with [TIKA](http:/
 - [Xpdf](http://www.foolabs.com/xpdf/)
 
 ##### Installation
-1. Download tika-server-1.7.jar from [Apache Tika](http://www.apache.org/dyn/closer.cgi/tika/tika-server-1.7.jar)
+1. Download tika-server-1.16.jar from [Apache Tika](http://www.apache.org/dyn/closer.cgi/tika/tika-server-1.16.jar)
 2. Mac: `brew install ghostscript` Ubuntu: `sudo apt-get install ghostscript`
 3. Mac: `brew install tesseract` Ubuntu: `sudo apt-get install tesseract-ocr`
 4. Mac: `brew tap homebrew/x11` and `brew install xpdf` Ubuntu: `sudo apt-get install poppler-utils`
@@ -21,7 +21,7 @@ Python library to extract text from any file type compatiable with [TIKA](http:/
 ##### Usage
 These script assume that an instance of Tika server is running.
 Starting Tika Servers
-`java -jar tika-server-1.7.jar --port 9998`
+`java -jar tika-server-1.16.jar --port 9998`
 
 In Python script
 ```python
