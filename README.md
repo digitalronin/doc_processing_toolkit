@@ -25,8 +25,11 @@ Starting Tika Servers
 
 In Python script
 ```python
-from textextraction.extractors import text_extractor
-text_extractor(doc_path=doc_path, force_convert=False)
+
+from textextraction.extractors import (TextExtraction)
+
+text = TextExtraction(doc_path).doc_to_text()
+
 ```
 
 ##### Tests
